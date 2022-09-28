@@ -2,17 +2,17 @@ package org.ragbecca.entities;
 
 public class GameMap {
 
-    private String[][] mapSize;
+    private Object[][] mapSize;
 
-    public GameMap(String[][] mapSize) {
+    public GameMap(Object[][] mapSize) {
         this.mapSize = mapSize;
     }
 
-    public String[][] getMapSize() {
+    public Object[][] getMapSize() {
         return mapSize;
     }
 
-    public void setMapSize(String[][] mapSize) {
+    public void setMapSize(Object[][] mapSize) {
         this.mapSize = mapSize;
     }
 }
